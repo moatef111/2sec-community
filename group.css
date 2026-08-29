@@ -1,0 +1,128 @@
+* {
+   box-sizing: border-box; 
+   margin: 0;
+   font-family: "Jomhuria", serif;
+}
+.logo {
+    width: 50px;
+    border-radius: 50%;
+    margin-right:15px ;
+    margin-top:15px ;
+
+}
+.head {
+    background-color: #0008D6;
+    /* border-radius: 5%; */
+    color: white;
+
+    padding-bottom: 10px;
+    /* position: relative; */
+    box-shadow:  0px 8px 20px black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    /* margin: 20px auto; */
+    font-size: 100px;
+    text-shadow: 3px 4px 5px black;
+    letter-spacing: 10px;
+}
+.h2{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.h2 h2{
+    text-shadow: 2px 3px 3px black;
+}
+.link {
+    display: inline-block;
+    color: #00D691;
+    text-decoration: none;
+    text-shadow: 2px 3px 3px black;
+    padding: 10px;
+}
+.foot {
+    background-color: #0008D6;
+    color: white;
+}
+.co {
+    /* padding-bottom: 100px; */
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+ 
+}
+.ho {
+    padding-top: 7e0px;
+    padding-bottom: 15px;
+}
+.wat {
+    width: 30px;
+    border-radius: 50%;
+    margin-right:15px ;
+    margin-top:15px ;
+}
+.parent {
+   display: flex;
+   flex-wrap: wrap;
+}
+.parent .card{
+    margin: 20px auto;
+    height: 250px;
+    width: 210px;
+    background-color: #eee;
+    box-shadow:  8px 8px 20px black;
+    padding: 20px;
+    border-radius: 7%;
+    text-align: center;
+
+    
+}
+.pdfpho{
+    width: 100px;
+    display:block;
+    margin: 10px auto;
+  
+}
+.download {
+    background-color: #008ED6;
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #0008D6;
+    text-decoration: none;
+    border-radius: 7%;
+
+}
+
+
+
+@media (max-width: 768px){
+    h1{
+        font-size: 40px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .logo{
+        width: 25px;
+    }
+    .co {
+        font-size: 20px;
+        /* padding-bottom: 0; */
+    }
+    .wat {
+    width: 20px;
+    }
+}
+/* @media (min-width: 992px){
+
+}
+@media (min-width: 1200px){
+
+} */
