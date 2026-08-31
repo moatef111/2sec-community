@@ -28,6 +28,7 @@ h1{
     font-size: 100px;
     text-shadow: 3px 4px 5px black;
     letter-spacing: 10px;
+    padding-top: 15px;
 }
 .h2{
     text-align: center;
